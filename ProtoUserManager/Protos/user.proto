@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+option csharp_namespace = "ProtoUserManager";
+
+package user;
+
+service UserService {
+  rpc CreateUser (User) returns (UserResponse);
+  rpc GetUser (UserIdRequest) returns (UserResponse);
+  rpc UpdateUser (User) returns (UserResponse);
+  rpc DeleteUser (UserIdRequest) returns (UserResponse);
+}
+
+message User {
+  int32 id = 1;
+  string name = 2;
+  string family = 3;
+  string nationalId = 4;
+  string dateOfBirth = 5;
+}
+
+message UserIdRequest {
+  int32 id = 1;
+}
+
+message UserResponse {
+  bool success = 1;
+  string message = 2;
+  User data = 3;
+}

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProtoUserManager", "ProtoUserManager\ProtoUserManager.csproj", "{31E31C9B-A9A1-4126-B9F0-393183437D46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtoUserManagerUnitTest", "ProtoUserManagerUnitTest\ProtoUserManagerUnitTest.csproj", "{CCB416C8-4086-415D-9345-6D866E281989}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31E31C9B-A9A1-4126-B9F0-393183437D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31E31C9B-A9A1-4126-B9F0-393183437D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31E31C9B-A9A1-4126-B9F0-393183437D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31E31C9B-A9A1-4126-B9F0-393183437D46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCB416C8-4086-415D-9345-6D866E281989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCB416C8-4086-415D-9345-6D866E281989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCB416C8-4086-415D-9345-6D866E281989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCB416C8-4086-415D-9345-6D866E281989}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BB1B386-C037-4066-8FDB-8ED2DE2EE315}
+	EndGlobalSection
+EndGlobal
